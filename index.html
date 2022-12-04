@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/intlTelInput.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="burger-overlay">
+        <div class="burger-list">
+            <nav>
+                <ul class="burger-nav">
+                    <li><a href="#about">O Maxima</a></li>
+                    <li><a href="#valuables">Наши ценности</a></li>
+                    <li><a href="#investing">Ваши инвестиции</a></li>
+                    <li><a href="#investition">Инвестиционная программа</a></li>
+                    <li><a href="#project">ПРОЕКТЫ</a></li>
+                </ul>
+                <button class="registration-btn">Регистрация</button>
+            </nav>
+            
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="/" class="header-logo">
+                    <img src="img/header-logo.svg" alt="">
+                </a>
+                <nav>
+                    <ul class="header-nav">
+                        <li><a href="#about">O Maxima</a></li>
+                        <li><a href="#valuables">Наши ценности</a></li>
+                        <li><a href="#investing">Ваши инвестиции</a></li>
+                        <li><a href="#investition">Инвестиционная программа</a></li>
+                        <li><a href="#project">ПРОЕКТЫ</a></li>
+                    </ul>
+                </nav>
+                <div class="burger-btn">
+                    <div class="burger-wrapper">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-inner">
+                <div class="hero-block">
+                    <div class="hero-media"></div>
+                    <div class="hero-info">
+                        <h1 class="hero-title">ТОРГОВАЯ ПЛОЩАДКА <br> MA<span>X</span>IMA LT 2.0</h1>
+                        <p class="section-text">При поддержке Министерства экономики
+                            позволяет жителям Европы зарабатывать
+                            на платформе Baltic Autotreid.</p>
+                    </div>
+                </div>
+                <div class="registration">
+                    <h4 class="registration-title">Станьте участником программы для увеличения своего финансового
+                        достатка. <br>
+                        ЗАРЕГИСТРИРУЙТЕСЬ и мы свяжемся с вами!</h4>
+                    <form action="api.php" class="registration-form" method="post">
+                        <input type="text" placeholder="Ваше имя" name="name" required>
+                        <input type="tel" name="phone" class="phone" required>
+                        <input type="email" placeholder="Ваш email" name="email" required>
+                        <button type="submit">Регистрация</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-inner">
+                <h2 class="about-title">ТОМАС <span>РУПШИЦ</span></h2>
+                <p class="about-subtitle">MAXIMA LT генеральный директор</p>
+                <p class="section-text">
+                    Мы решили открыть доступ к инвестициям для всех граждан, потому что это будет выгодно как для
+                    MAXIMA, так и для жителей Европы.
+                    <br><br>
+                    Дело в том что на данный момент в этих странах есть спрос на онлайн-покупки. Во всех странах спрос
+                    на онлайн-покупки стремительно растёт. По этой причине мы решили в 4 раза увеличить нашу платформу и
+                    продажи на ней и привлечь инвесторов со всей Европы.
+                    <br><br>
+                    Поскольку цены на товары в интернете быстро меняются, каждый инвестор в проекты MAXIMA получает
+                    среднемесячную зарплату в размере 8500-9000 €.
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="img/about-980.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="valuables" id="valuables">
+        <div class="container">
+            <div class="valuables-inner">
+                <h2 class="valuables-title">
+                    Наши ценности
+                </h2>
+                <div class="valuables-row">
+                    <div class="valuables-item">
+                        <div class="valuables-img">
+                            <img src="img/valuables-1.svg" alt="">
+                        </div>
+                        <span class="valuables-text">Значительная прибыль с минимальным риском</span>
+                    </div>
+                    <div class="valuables-item">
+                        <div class="valuables-img">
+                            <img src="img/valuables-2.svg" alt="">
+                        </div>
+                        <span class="valuables-text">Один из самых прибыльных активов</span>
+                    </div>
+                    <div class="valuables-item">
+                        <div class="valuables-img">
+                            <img src="img/valuables-3.svg" alt="">
+                        </div>
+                        <span class="valuables-text">Быстрый вывод средств на любую банковскую карту</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="investing" id="investing">
+        <div class="container">
+            <div class="investing-inner">
+                <h2 class="investing-title">
+                    Сколько вы сможете зарабатывать?
+                </h2>
+                <p class="investing-subtitle">Ваши инвестиции:</p>
+                <form class='investing-form'>
+                    <input type="range" class="investing-range" step="250" min="250" max="20000" value="250">
+                    <span class="investing-text">Ваша прибыль, €:</span>
+                    <div class="investing-demo">213</div>
+                    <button class="registration-btn popup-btn">Регистрация</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="investition" id="investition">
+        <div class="container">
+            <div class="investition-inner">
+                <h2 class="investition-title">
+                    Программа инновационного развития MAXIMA
+                </h2>
+                <div class="investition-block">
+                    <img src="/img/investition.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <div class="container">
+            <div class="info-inner">
+                <h3 class="info-title">
+                    MAXIMA - ОДНА ИЗ КРУПНЕЙШИХ КОМПАНИЙ, КОТИРУЮЩИХСЯ НА ФОНДОВОЙ БИРЖЕ
+                    СТРАН ЕВРОПЫ.
+                </h3>
+                <span>+39 %</span>
+                <span>20,05 €.</span>
+                <div class="info-rate">ТЕКУЩИЙ КУРС <br> <strong>MA<span>X</span>IMA</strong> </div>
+                <button class="registration-btn">Регистрация</button>
+            </div>
+        </div>
+    </section>
+    <section class="join">
+        <div class="container">
+            <div class="join-inner">
+                <div class="join-img">
+                    <img src="img/join-bg.png" alt="">
+                </div>
+                <form action="api.php" class="join-form" method="post">
+                    <h2 class="join-title">ПРИСОЕДИНИТЕСЬ К ПРОЕКТУ СЕЙЧАС!</h2>
+                    <p class="join-subtitle">Мы свяжемся с вами для предоставления доступа к эксклюзивному заработку</p>
+                    <input type="text" name="name" required placeholder="Ваше имя">
+                    <input type="tel" name="phone" class="phone" required>
+                    <input type="text" name="email" required placeholder="Ваш email">
+                    <button class="join-btn">Начать зарабатывать</button>
+                    <span class="privacy">Нажимая на кнопку, Вы принимаете <a href="">пользовательское <br>
+                            соглашение</a>.</span>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <div class="container">
+            <div class="project-inner">
+                <h2 class="project-title">Проекты <img src="img/header-logo.svg" alt=""></h2>
+                <div class="project-row">
+                    <div class="project-item">
+                        <div class="project-img">
+                            <img src="img/project-1.png" alt="">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-info__title">MA<span>X</span>IMA <br> Старт проект</h3>
+                            <p class="project-info__subtitle"><span>163%</span> гарантированных ежемесячных платежей</p>
+                            <span>Первая инвестиция 250 €</span>
+                            <p class="project-info__text">
+                                Система заработка на самом продаваемом товаре от онлайн площадки
+                                <span>MA<strong>X</strong>IMA.</span>
+                            </p>
+                            <button class="registration-btn popup-btn">Регистрация</button>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-img">
+                            <img src="img/project-2.png" alt="">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-info__title">MA<span>X</span>IMA <br> Профессиональный проект</h3>
+                            <p class="project-info__subtitle"><span>255%</span> гарантированных ежемесячных платежей</p>
+                            <span>Первая инвестиция 500 €</span>
+                            <p class="project-info__text">
+                                Система эксклюзивного заработка с каждой транзакции на онлайн-площадке
+                                <span>MA<strong>X</strong>IMA</span> с максимальными выплатами.
+                            </p>
+                            <button class="registration-btn popup-btn">Регистрация</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="prefooter">
+        <div class="container">
+            <div class="prefooter-inner">
+                <div class="registration">
+                    <h4 class="registration-title">Станьте участником программы для увеличения своего финансового
+                        достатка. <br>
+                        ЗАРЕГИСТРИРУЙТЕСЬ и мы свяжемся с вами!</h4>
+                    <form action="api.php" class="registration-form" method="post">
+                        <input type="text" placeholder="Ваше имя" name="name" required>
+                        <input type="tel" name="phone" class="phone" required>
+                        <input type="email" placeholder="Ваш email" name="email" required>
+                        <button type="submit">Регистрация</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="brands-row">
+                    <div class="brands-item">
+                        <img src="img/footer1.png" alt="">
+                    </div>
+                    <div class="brands-item">
+                        <img src="img/footer2.png" alt="">
+                    </div>
+                    <div class="brands-item">
+                        <img src="img/footer3.png" alt="">
+                    </div>
+                    <div class="brands-item">
+                        <img src="img/footer4.png" alt="">
+                    </div>
+                    <div class="brands-item">
+                        <img src="img/footer5.png" alt="">
+                    </div>
+                    <div class="brands-item">
+                        <img src="img/footer6.png" alt="">
+                    </div>
+                </div>
+                <div class="company-row">
+                    <div class="company-item">
+                        <img src="img/company1.png" alt="">
+                    </div>
+                    <div class="company-item">
+                        <img src="img/company2.png" alt="">
+                    </div>
+                    <div class="company-item">
+                        <img src="img/company3.png" alt="">
+                    </div>
+                    <div class="company-item">
+                        <img src="img/company4.png" alt="">
+                    </div>
+                    <div class="company-item">
+                        <img src="img/company5.png" alt="">
+                    </div>
+                </div>
+                <span class="copyright">MAXIMA group LT OOO, Mindaugo g. 11, 03225 Vilnius, Литва</span>
+            </div>
+        </div>
+    </footer>
+    <div class="popup-overlay">
+        <div class="popup-wrapper">
+            <div class="popup-content">
+                <h2 class="popup-title">ЗАРЕГИСТРИРУЙТЕСЬ СЕЙЧАС</h2>
+                <p class="popup-subtitle">и получите доступ к эксклюзивному заработку на самой большой торговой площадке
+                    среди стран Балтии!</p>
+                <form action="api.php" class="popup-form" method="post">
+                    <input type="text" name="name" placeholder="Ваше имя">
+                    <input type="text" name="phone" class="phone" placeholder="" required>
+                    <input type="email" name="email" placeholder="Ваш email" required>
+                    <button type="submit" class="registration-btn">Зарегистрироваться</button>
+                </form>
+                <span>Нажимая кнопку, Вы принимаете <br><a href="">пользовательское cоглашение</a></span>
+            </div>
+            <div class="popup-close__wrapper">
+                <div class="popup-close">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-helper">
+        <img src="img/popup.png" alt="">
+        <div class="close-wrapper">
+            <div class="close-helper">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup">
+        <form action="api.php" method="post" class="consult-form">
+            <h2 class="popup-helper__title">Остались вопросы? <br> Мы вам поможем!
+            </h2>
+            <input type="text" class="name" name="name" placeholder="Ваше имя" requiered>
+            <input type="text" class="phone" name="phone" placeholder="" requiered>
+            <input type="email" class="email" name="email" placeholder="Ваш email" requiered>
+            <button class="registration-btn">Отправить</button>
+            <span>Нажимая на кнопку, вы принимаете <a href="">пользовательское соглашение</a></span>
+    </div>
+    </form>
+    </div>
+    <script src="js/intlTelInput.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/intlTelInput-jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+    <script src="js/jquery.maskedInput.js"></script>
+    <script src="lightbox/lightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#click1").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#kontakt").offset().top
+                }, -500);
+            });
+        });
+        $(document).ready(function () {
+            $("#click2").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#kontakt").offset().top
+                }, -500);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#click3").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#kontakt").offset().top
+                }, -500);
+            });
+        });
+    </script>
+    <script>
+        $('.g-recaptcha div').css({ 'width': '100%' })
+        const capthcha_key = '6LfI8EYhAAAAAIxAG3f1BL9Tku5pAkHj0l7aNuow'
+
+
+        $.mask.definitions['9'] = '';
+        $.mask.definitions['d'] = '[0-9]';
+        $("input[name=phone],input.phone").mask("ddd ddd-ddd", { placeholder: "0" });
+
+
+        // initialize intl-tel-input for each tel-type element
+        $('input[class*=phone]').each(function () {
+
+            // Find input's form
+            let form = $(this).closest("form");
+
+            $(this).intlTelInput({
+                utilsScript: "js/utils.js?1613236686837",
+                autoHideDialCode: false,
+                separateDialCode: true,
+                preferredCountries: [""],
+                preferredCountries: ['pl', 'cz'],
+                autoPlaceholder: "aggressive",
+                placeholderNumberType: "MOBILE",
+                initialCountry: "auto",
+                customPlaceholder: function (selectedCountryPlaceholder, selectedCountryData) {
+                    return selectedCountryPlaceholder.replace(/[0-9]/g, '0');
+                },
+                geoIpLookup: function (success, failure) {
+                    $.get("https://ipinfo.io/?token=39016551fd15b7", function () {
+                    }, "jsonp").always(function (resp) {
+                        countryCode = (resp && resp.country) ? resp.country : "cz";
+                        success(countryCode);
+                    });
+                }
+            });
+
+
+            $(this).blur(function () {
+                if ($(this).val().replace(/[^+\d]/g, '')) {
+                    if ($(this).intlTelInput("isValidNumber")) {
+
+                        form.find('span.error-msg').remove()
+                        form.find('span.valid-msg').remove()
+
+                        // Add valid answer after phone input
+                        $(this).parent().after('<span class="valid-msg">✓ Валидный</span>')
+                        $(this).removeClass("error");
+                        $(this).addClass("access");
+
+                    } else {
+
+                        form.find('span.error-msg').remove()
+                        form.find('span.valid-msg').remove()
+
+                        $(this).addClass("error");
+                        $(this).removeClass("access");
+
+                        // Add valid answer after phone input
+                        $(this).parent().after('<span class="error-msg"></span>')
+
+                    }
+                }
+            });
+
+        });
+
+        // Initialize the mask
+
+        $("input[name=phone],input.phone").on("countrychange", function (e, countryData) {
+            $(this).val('');
+
+            console.log($(this).intlTelInput("getSelectedCountryData"))
+            $(this).closest('form').find('#dial').remove()
+            $(this).closest('form').append("<input type='hidden' id='dial' name='dialCode' value='" + $(this).intlTelInput("getSelectedCountryData")['dialCode'] + "'/>")
+            // var mask=$(this).closest('.intl-tel-input').find('.selected-dial-code').html()+' '+$(this).attr('placeholder').replace(/[0-9]/g,'d');
+            $(this).mask($(this).attr('placeholder').replace(/[0-9]/g, 'd'), { placeholder: "0" });
+        });
+
+        // Don't send data if the values wrong.
+
+        $('form').each(function () {
+            $(this).on('submit', function (e) {
+                if (!grecaptcha.getResponse(0) && !grecaptcha.getResponse(1) && !grecaptcha.getResponse(2)) {
+                    alert('Заповніть капчу!');
+                    e.preventDefault()
+                }
+                // if ($(this).find('span.error-msg').length > 0) {
+                //     e.preventDefault()
+                // }
+            })
+        })
+
+        // Captcha connectors
+
+    </script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
